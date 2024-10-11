@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="src/styles/style.css">
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <title>Landing-Pages-FOOD</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+
+      <ul id="nav_list">
+        <li class="nav-item active">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu">Cardápio</a>
+        </li>
+        <li class="nav-item ">
+          <a href="#testimonials">Avaliações</a>
+        </li>
+      </ul>
+      <button class="btn-default">Peça aqui</button>
+
+      <button id="mobile-btn"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    <div id="mobile_menu">
+      <ul id="mobile_nav_list">
+        <li class="nav-item">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonials">Avaliações</a>
+        </li>
+      </ul>
+      <button class="btn-default">Peça aqui</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="home">
+      <div class="shape"></div>
+      <div id="cta">
+        <h1 class="title">O sabor que vai até
+          <span>você</span>
+        </h1>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div id="cta_buttons">
+          <a href="#" class="btn-default">Ver cardápio</a>
+          <a href="tel:+55555555" id="phone_button"><button class="btn-default"><i class="fa-solid fa-phone"></i></button>(11) 95555-5555</a>
+        </div>
+        <div class="social-media-buttons">
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div id="banner">
+
+        <a href="https://storyset.com/food" target="_blank"><img src="burger.svg" alt=""></a>
+
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2 class="section-title">Cardápio</h2>
+      <h3 class="section-subtitle">Nossos Lanches especiais</h3>
+
+      <div id="dishes">
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img class="dish-image" src="src/image/bacon.jpg" alt="">
+          <h3 class="dish-title">Bacon</h3>
+          <span class="dish-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$36,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img class="dish-image" src="src/image/bacon.jpg" alt="">
+          <h3 class="dish-title">Bacon</h3>
+          <span class="dish-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$36,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img class="dish-image" src="src/image/bacon.jpg" alt="">
+          <h3 class="dish-title">Bacon</h3>
+          <span class="dish-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$36,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img class="dish-image" src="src/image/bacon.jpg" alt="">
+          <h3 class="dish-title">Bacon</h3>
+          <span class="dish-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$36,90</h4>
+            <button class="btn-default">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </section>
+
+    <section id="testimonials">
+      <img class="image-chef" src="src/image/testimonials.jpg" alt="">
+      <div id="testimonials_content">
+        <h2 class="section-title">
+          Depoimentos
+        </h2>
+        <h3 class="section-subtitle">
+          O que os clientes falam sobre nós
+        </h3>
+
+        <div id="feedbacks">
+          <div class="feedback">
+
+            <img class="feedback-avatar" src="src/image/avatar.png" alt="">
+
+
+            <div class="feedback-content">
+              <p>
+                Fulana
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati suscipit nostrum placeat mollitia, reiciendis exercitationem, aliquid maiores corrupti cupiditate consectetur debitis saepe. Vero libero minus eum sint, totam ullam provident!"
+              </p>
+
+
+            </div>
+
+          </div>
+          <div class="feedback">
+
+            <img class="feedback-avatar" src="src/image/avatar.png" alt="">
+
+
+            <div class="feedback-content">
+              <p>
+                Fulana
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati suscipit nostrum placeat mollitia, reiciendis exercitationem, aliquid maiores corrupti cupiditate consectetur debitis saepe. Vero libero minus eum sint, totam ullam provident!"
+              </p>
+
+
+            </div>
+
+          </div>
+        </div>
+        <button class="btn-default">Ver mais avalições</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="src/image/wave (2).svg" alt="">
+
+    <div id="footer_items">
+      <span class="" id="copyright">
+        &copy 2024 Fabio Barbosa
+      </span>
+      <div class="social-media-buttons">
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
